@@ -13,8 +13,8 @@ export default function Home() {
 			<Header />
 			<main className="flex w-full flex-col">
 				<div className="2xl:w-[1170px] xl:w-[1100px] lg:w-[95%] mx-auto">
-					<Intro />
-					<Features />
+					{/* <Intro /> */}
+					{/* <Features /> */}
 					<Advantage />
 				</div>
 				<div>
