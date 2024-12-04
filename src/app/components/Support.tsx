@@ -1,0 +1,28 @@
+import React from "react";
+import ComputerImg from "../assets/supportcom.svg";
+import SupportAndroid from "../assets/supportandroid.svg";
+import SupportIos from "../assets/supportios.svg";
+
+const Support = () => {
+	return (
+		<div className="mt-[60px] py-[30px] flex px-8 lg:px-0 items-center">
+			<div className="flex-1">
+				<ComputerImg />
+			</div>
+			<div className="flex-1 pt-6 flex flex-col gap-[50px]">
+				<div>
+					<h1 className="text-center text-[42px] leading-[120%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">Accessible Anytime, Anywhere</h1>
+					<h2 className="text-center mt-7 text-[20px] leading-[27px] text-[#666666] max-w-[1070px] mx-auto">
+						Effortless Access and Management Across All Platforms – Desktop Apps for Windows, macOS, and Linux, Plus Mobile Apps for Android and iOS.
+					</h2>
+				</div>
+				<div className="mx-auto flex gap-[30px] items-end">
+					<SupportAndroid />
+					<SupportIos />
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Support;
