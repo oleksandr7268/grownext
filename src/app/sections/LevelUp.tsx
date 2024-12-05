@@ -17,17 +17,17 @@ const LevelUp = () => {
 				</h2>
 			</div>
 			<div className="relative">
-				<div className="mt-[50px] flex justify-center w-[970px] h-[560px] mx-auto rounded-[20px] bg-white shadow-[0px_10px_25px_-3px_#00000026]">
-					<LogoBackImg className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%]" />
+				<div className="mt-[50px] flex justify-center w-[95%] lg:w-[970px] h-[560px] mx-auto rounded-[20px] bg-white shadow-[0px_10px_25px_-3px_#00000026] overflow-hidden">
+					<LogoBackImg className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%] hidden lg:block" />
 					<LogoMainImg className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%]" />
 					<button className="absolute left-[50%] -translate-x-[50%] bottom-[40px] hover:-translate-y-1 duration-200 ease-in-out">
 						<PlayButton />
 					</button>
 				</div>
-				<div className="absolute -translate-y-[50%] left-0 top-[50%] -z-30">
+				<div className="absolute -translate-y-[50%] left-0 top-[50%] -z-30 hidden lg:block">
 					<LevelUpDecoImg style={{ filter: "grayscale(1)" }} />
 				</div>
-				<div className="absolute -translate-y-[50%] right-0 top-[50%] -z-30">
+				<div className="absolute -translate-y-[50%] right-0 top-[50%] -z-30 hidden lg:block">
 					<LevelUpDecoRightImg style={{ filter: "grayscale(1)" }} />
 				</div>
 			</div>
