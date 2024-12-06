@@ -4,8 +4,8 @@ import DecoImg from "../assets/deco.png";
 
 const Intro = () => {
 	return (
-		<div className="lg:h-[700px] relative">
-			<div className="top-[197px] absolute flex justify-between w-full flex-col-reverse lg:flex-row gap-y-10">
+		<div className="mt-[197px] mb-[126px]">
+			<div className="flex justify-between w-full flex-col-reverse lg:flex-row gap-y-10">
 				<div className="w-[400px] flex flex-col justify-between">
 					<div>
 						<h1 className="text-[56px] text-transparent font-medium leading-[58px]">

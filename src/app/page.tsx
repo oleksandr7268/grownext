@@ -16,12 +16,12 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="">
+		<div className="min-h-screen">
 			<Header />
-			<main className="flex w-full flex-col relative">
+			{/* <main className="flex w-full flex-col relative">
 				<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto">
-					{/* <Intro /> */}
-					{/* <Features /> */}
+					<Intro />
+					<Features />
 					<Advantage />
 				</div>
 				<LevelUp />
@@ -36,7 +36,7 @@ export default function Home() {
 						<Image src={UpArrowImg} alt="↑" width={24} height={42} />
 					</button>
 				</div>
-			</main>
+			</main> */}
 		</div>
 	);
 }
