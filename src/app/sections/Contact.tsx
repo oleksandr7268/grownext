@@ -120,7 +120,7 @@ const Contact = () => {
 						<Image src={Linux} alt="Linux" className="w-auto h-[30px] aspect-auto" />
 					</button>
 				</div>
-				<div className="text-[20px] leading-[35px] text-[#374550]">© 2024 GrowNext. Manage cookies Legal Privacy</div>
+				<div className="text-[16px] md:text-[18px] lg:text-[20px] leading-[35px] text-[#374550]">© 2024 GrowNext. Manage cookies Legal Privacy</div>
 			</div>
 		</div>
 	);
