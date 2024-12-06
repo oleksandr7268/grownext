@@ -26,7 +26,7 @@ const Plan = () => {
 					gravida scelerisque proin amet morbi.
 				</h2>
 			</div>
-			<div className="mt-[50px] flex gap-10 flex-col lg:flex-row px-7 lg:px-0">
+			<div className="mt-[50px] flex gap-4 sm:gap-10 flex-col lg:flex-row px-7 lg:px-0">
 				<div className="flex-1 rounded-[20px] px-[30px] pt-[25px] pb-5 flex flex-col bg-gradient-to-b from-[#E9EBED] to-[#FFFFFF]">
 					<h3 className="text-[30px] font-bold leading-[120%]">Others Tools Price</h3>
 					<div className="mt-5">
@@ -88,7 +88,7 @@ const Plan = () => {
 					</button>
 				</div>
 				<div className="flex relative">
-					<div className="rounded-full p-4 text-[30px] leading-[36px] shadow-lg m-auto bg-white">VS</div>
+					<div className="rounded-full p-4 text-[24px] sm:text-[30px] leading-[36px] shadow-lg m-auto bg-white">VS</div>
 					<div className="absolute w-0.5 h-full left-[50%] translate-x-[50%] -z-50" style={{ background: "radial-gradient(50% 50% at 50% 50%, #0D0C0A 0%, #FFFFFF 100%)" }}></div>
 					<div className="absolute h-0.5 w-full top-[50%] translate-y-[50%] -z-50" style={{ background: "radial-gradient(50% 50% at 50% 50%, #0D0C0A 0%, #FFFFFF 100%)" }}></div>
 				</div>
@@ -144,7 +144,7 @@ const Plan = () => {
 							</div>
 						</div>
 					</div>
-					<div className="rounded-[16px] py-5 px-[30px] text-black bg-white mt-[22px] flex justify-between items-center">
+					<div className="rounded-[16px] py-5 px-[30px] text-black bg-white mt-[22px] flex justify-between items-center flex-col md:flex-row">
 						<div className="flex gap-4 flex-col text-left">
 							<div className="leading-[120%] text-[26px] font-semibold">$240 per month</div>
 							<div className="leading-[120%] text-[#4C4D51]">for 10 users billed yearly</div>
