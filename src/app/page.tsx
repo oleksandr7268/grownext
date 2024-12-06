@@ -16,9 +16,9 @@ import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="min-h-screen">
+		<div className="min-h-screen overflow-x-hidden">
 			<Header />
-			<main className="flex w-full flex-col relative">
+			<main className="flex flex-col relative">
 				<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto">
 					<Intro />
 					<Features />
