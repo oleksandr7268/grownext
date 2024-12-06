@@ -18,8 +18,12 @@ const Plan = () => {
 	return (
 		<div className="mx-2.5 px-8 lg:px-0">
 			<div className="mx-10 lg:mx-0">
-				<h1 className="text-center text-[48px] leading-[57.6px] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
-					Swap Multiple Tools for GrowNext and Save Money
+				<h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[120%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
+					Swap Multiple Tools for&nbsp;
+					<span className="from-[#555555] to-black bg-gradient-to-b bg-clip-text font-extrabold relative after:absolute after:bottom-0 after:left-0 after:w-[100%] after:translate-y-[40%] after:h-[30%] after:bg-contain after:bg-no-repeat after:bg-[url('/font_underline.png')] after:-z-20">
+						GrowNext&nbsp;
+					</span>
+					and Save Money
 				</h1>
 				<h2 className="text-center mt-4 text-[20px] leading-[27px] text-[#666666] max-w-[1070px] mx-auto">
 					Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus purus semper penatibus sit quis. Morbi amet
