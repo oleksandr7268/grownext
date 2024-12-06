@@ -22,7 +22,7 @@ export default function Home() {
 				<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto">
 					<Intro />
 					<Features />
-					{/* <Advantage /> */}
+					<Advantage />
 				</div>
 				{/* <LevelUp />
 				<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">

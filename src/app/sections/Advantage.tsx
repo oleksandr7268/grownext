@@ -6,9 +6,15 @@ import ArrowImg from "../assets/reverseArrow.svg";
 
 const Advantage = () => {
 	return (
-		<div className="px-[60px] py-[30px] mt-[70px] shadow-[0px_10px_25px_-3px_#00000026] rounded-[20px]">
+		<div className="px-[20px] lg:px-[60px] py-[30px] mt-[70px] shadow-[0px_10px_25px_-3px_#00000026] rounded-[20px]">
 			<div className="text-center">
-				<h1 className="text-[48px] leading-[57.6px] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">Why Choose GrowNext ERP?</h1>
+				<h1 className="text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
+					Why Choose &nbsp;
+					<span className="from-[#555555] to-black bg-gradient-to-b bg-clip-text font-extrabold relative after:absolute after:bottom-0 after:left-0 after:w-[100%] after:translate-y-[40%] after:h-[30%] after:bg-contain after:bg-no-repeat after:bg-[url('/font_underline.png')] after:-z-20">
+						GrowNext&nbsp;
+					</span>
+					ERP?
+				</h1>
 				<h2 className="text-center mt-4 text-[20px] leading-[27px] text-[#666666]">
 					Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus purus semper penatibus sit quis. Morbi amet
 					gravida scelerisque proin amet morbi.

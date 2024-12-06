@@ -8,11 +8,11 @@ import DecoPolygon from "../assets/blue_polygon.png";
 const Features = () => {
 	return (
 		<div className="my-9 flex flex-col relative">
-			<h1 className="text-center text-[40px] md:text-[48px] lg:text-[56px] leading-[104%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
+			<h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[104%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
 				<span className="from-[#555555] to-black bg-gradient-to-b bg-clip-text font-extrabold relative after:absolute after:bottom-0 after:left-0 after:w-[100%] after:translate-y-[40%] after:h-[30%] after:bg-contain after:bg-no-repeat after:bg-[url('/font_underline.png')] after:-z-20">
-					GrowNext
+					GrowNext&nbsp;
 				</span>
-				&nbsp; Your ultimate workspace
+				Your ultimate workspace
 			</h1>
 			<h2 className="px-[10px] md:px-6 lg:px-[50px] text-center mt-4 text-[20px] leading-[120%] text-[#666666]">
 				Lorem ipsum dolor sit amet consectetur. Rhoncus porttitor velit bibendum rutrum pharetra semper. Cursus nunc ultrices nulla dapibus purus semper penatibus sit quis. Morbi amet gravida
