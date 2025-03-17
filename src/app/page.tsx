@@ -1,5 +1,4 @@
 import Header from "./sections/Header";
-import Footer from "./sections/Footer";
 import Intro from "./sections/Intro";
 import Features from "./sections/Features";
 import Advantage from "./sections/Advantage";
