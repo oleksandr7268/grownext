@@ -10,7 +10,7 @@ import TestLogo_3 from "../assets/test-logo3.svg";
 import TestLogo_4 from "../assets/test-logo4.svg";
 
 const Testimonials = () => {
-	const sliderRef = useRef(null);
+	 const sliderRef = useRef<HTMLDivElement | null>(null);
 	const cnt = 8;
 	const [curIdx, setCurIdx] = useState(0);
 
