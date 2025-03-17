@@ -16,7 +16,7 @@ const Testimonials = () => {
 
 	useEffect(() => {
 		if (sliderRef.current) {
-			const amount = parseFloat(window.getComputedStyle(sliderRef.current.firstChild).width);
+			const amount = parseFloat(window.getComputedStyle(sliderRef.current.firstChild as Element).width);
 			const newTransform = `translateX(-${amount * curIdx}px)`;
 			sliderRef.current.style.transform = newTransform;
 		}
